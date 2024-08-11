@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+  let browserInfo = `Browser Name: ${navigator.appName}\n`+
+                    `Browser Version: ${navigator.appVersion}\n` +
+                    `User-Agent: ${navigator.userAgent}\n` +
+                    `Platform: ${navigator.platform}\n`;
+
+  let cookiesEnabled = navigator.cookiesEnabled ? "Enabled" : "Disabled";
+
+  alert(`Browser Information:\n${browserInfo}\nCookies: ${cookiesEnabled}`);
+</script>
+</body>
+</html>
